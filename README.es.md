@@ -1,13 +1,14 @@
  # Perfil externo del estudiante
 
-Es hora de comenzar tu primera contribución de GitHub. Git ofrece una forma de insertar código en un repositorio sin poseerlo, o incluso ser invitado a él, se llama `Pull request` y el objetivo principal de este ejercicio es crear tu primer `Pull request`.
+Es hora de comenzar tu primera contribución de GitHub. Git ofrece una forma de insertar código en un repositorio sin ser el dueño, o incluso ser invitado, se llama `Pull request` y el objetivo principal de este ejercicio es crear tu primer `Pull request`.
 
-Al mismo tiempo, comenzarás a construir tu perfil de estudiante, uno de los logros más importantes que puedes tener en la academia porque:
+
+Con este proyecto comenzarás a construir tu perfil profesional, uno de los logros más importantes tendrás en la academia porque:
 - Será la primera versión de tu portafolio de desarrolladores.
 - Será la primera versión de tu currículum (como un desarrollador).
 - Le dará más contexto a tu experiencia de aprendizaje: puedes ver una tabla de todo lo que aprenderás a lo largo del curso.
 
-Este `Student Showcase` todavía está en fase beta y tu eres uno de los primeros estudiantes en convertirse en colaborador. Puedes encontrar la lista de estudiantes que ya tienen su perfil construido en la [SIGUIENTE URL](http://sep.4geeksacademy.co/students/), También puedes hacer click en el nombre de los estudiantes para encontrar una versión beta de cómo se ve el perfil de los estudiantes en este momento.
+Este `Student Showcase` todavía está en fase beta y tu eres uno de los primeros estudiantes en convertirse en colaborador. Puedes encontrar la lista de estudiantes que ya tienen su perfil construido en la [SIGUIENTE URL](http://sep.4geeksacademy.co/students/), También puedes hacer clic en el nombre de los estudiantes para encontrar una versión beta de cómo se ve el perfil de los estudiantes en este momento.
 
 ## ¿Cómo construir tu propio perfil dentro de Student Showcase?
 
@@ -31,7 +32,7 @@ Este `Student Showcase` todavía está en fase beta y tu eres uno de los primero
   Importante: deberías probar tu sintáxis de `YML`aqui: http://www.yamllint.com/
   ```
 
-4. Commit y push tus cambios.
+4. Commit y push para subir tus cambios.
 
   `$ git add .`
   
@@ -49,7 +50,7 @@ Después de completar el PR (Pull Request), la aplicación generará automática
 
 **[https://sep.4geeksacademy.co](https://sep.4geeksacademy.co)**
 
-Tu perfil debe verse como el siguiente:
+Tu perfil debiera verse como el siguiente:
 
 <p align="center">
   <img height="350" src="https://raw.githubusercontent.com/4GeeksAcademy/student-external-profile/master/site/static/preview.png">
@@ -63,13 +64,13 @@ Tu perfil debe verse como el siguiente:
 
 El archivo YML consta de 4 secciones principales:
 ```yml
-theme: You can choose a theme and skin colors.
-basic_info: Personal info
-education: Previous studies.
-experiences: Previous jobs.
-projects: Describe the projects you've built as a developer.
-publications: Any articles you have published.
-skills: List your skills with a percentage of expertise.
+theme: Escoge theme y skin colors.
+basic_info: Información personal.
+education: Estudios.
+experiences: Experiencia laboral.
+projects: Describe los proyectos que hayas hecho como desarrollador. 
+publications: Artículos que hayas publicado.
+skills: Enumera tus habilidades y añádeles un porcentanje de experticia.
 ```
 
 <p align="center">
